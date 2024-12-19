@@ -1,0 +1,55 @@
+.con{
+    margin-left: 259px;
+    padding: 10px;
+  margin-bottom: 15px
+
+}
+.title{
+width: 70%;
+}
+.description{
+    width: 70%;
+}
+.conbutton button{
+    height: 50%;
+    width: 70%;
+}
+.con-list{
+    margin-left: 300px;
+}
+.edit-button{
+    background-color: rgb(1, 187, 85);
+    height:40px;
+    width: 50px;
+}
+.danger{
+    background-color: rgb(223, 7, 7);
+    height:40px;
+    width: 50px;
+}
+
+
+.tab-hover{
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid #ddd;
+    margin-left: -30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+
+  
+.tab-hover thead{
+  background-color: #fcfafa;
+  border-bottom: 1px solid #ddd;
+  margin-left: -0px;
+}
+
+.tab-hover th, .tab-hover td{
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.tab-hover tbody tr{
+  border-bottom: 1px solid #ddd;}

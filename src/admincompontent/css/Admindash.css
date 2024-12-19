@@ -1,0 +1,100 @@
+/* AdminDashboard.css */
+.page{
+color: white;
+background-color: rgb(3, 53, 53);
+margin-right: -21px;
+width: 120%;
+height: 275vh;
+margin-top: -18px;
+}
+.admin-dashboard {
+    display: flex;
+    height: 100vh; /* Full height */
+}
+.admin-dashboard h1{
+    text-align:  right;
+    margin-top: -300px;
+    margin-left: 500px;
+}
+
+ .page .sidebar {
+    margin-left: -21px;
+    width: 250px; /* Fixed width for sidebar */
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+    padding: 20px;
+    position:absolute; /* Fixed position */
+     height: 283%;/* Full height */
+    overflow-y: auto; /* Scrollable if content overflows */
+
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar li {
+    margin: 15px 0; /* Space between items */
+}
+
+.sidebar a{
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    justify-content: space-between;
+    font-size: 19px;
+    gap: 70px;
+    
+
+}
+
+.sidebar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.sidebar button {
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    width: 100%; /* Full width */
+}
+
+.sidebar button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.content {
+    margin-left: 250px; /* Space for sidebar */
+    padding: 20px; /* Padding for content */
+    flex-grow: 1; /* Allow content to grow */
+}
+#dashboard h2{
+    margin-top: -190px;
+    margin-right: 500px;
+    text-align: center;
+
+}
+.content p{
+    margin-top: -900px;
+
+    
+}
+.text{
+    margin-left: 450px;
+    
+}
+.menu {
+    size: 25px;
+    justify-content: space-between;
+    gap: 20px;
+
+ }
+ .back{
+    background-color: #123150;
+    height: 100%;
+ }
+ 

@@ -1,0 +1,68 @@
+.loginsignup{
+    width: 100%;
+    height: 2000px;
+    background: #0e0a27;
+    padding-top: 90px;
+}
+.loginsignup-container{
+    width: 580px;
+    height: 20000px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    }
+    .loginsignup-container h1{
+        margin: 20px 0px
+    }
+    .loginsignup-fields{
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+        margin-top: 30px;
+    }  
+    .loginsignup-fields input{
+        height: 72px;
+        width: 100%;
+        padding-left:20px ;
+        border:1px solid #290d0d;
+        outline: none;
+        color: #140606;
+        font-size: 18px;
+
+    }
+    .gender-radio {
+
+        display: flex;
+        margin-right: 20px;
+      }
+      
+      .gender-radio  input[type="radio"] {
+        margin-right: 10px;
+      }
+      .gender-radio input[type="radio"]{
+        width: 15px;
+        height: 15px;   
+      }
+        .signup button{
+        
+            width: 130px;
+            height: 40px;
+            outline: none;
+            border: 1px solid;
+            border-radius: 75px; 
+            color: rgb(15, 10, 37);
+           font-size: 20px;
+           font-weight: 500;
+            background-color: rgb(237, 236, 241);
+            cursor: pointer;
+             text-decoration: none;
+             margin-top: 20px;
+             margin-bottom: 20px;
+             align-items: center;
+            
+          }
+          .signup button:active{
+            background-color: aliceblue;
+    }
+ 
+    

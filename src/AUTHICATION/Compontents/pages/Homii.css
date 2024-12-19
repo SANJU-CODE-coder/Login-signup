@@ -1,0 +1,60 @@
+
+.hero{
+    width: 120%;
+    min-height: 100Vh;
+background-image:url(../pages/photos/homii.jpg );
+    background-size: cover;
+    background-position: center; 
+    color: white ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: -21px;
+
+
+}
+
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+}
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+ .hero-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+    margin-top: 10px;
+    color: rgb(20, 22, 22);
+    font-weight: 800;
+    }
+
+    
+    
+    
+ #ex-btn  {
+    width: 130px;
+     height: 40px;
+     outline: none;
+     border: 1px solid;
+     border-radius: 75px; 
+     color: rgb(33, 36, 36);
+    font-size: 20px;
+    font-weight: 500;
+     background-color: rgb(251, 252, 252);
+     cursor: pointer;
+      text-decoration: none;
+     
+   }
+   #ex-btn button:active{
+     background-color: rgb(197, 162, 195);
+      
+    }
+
+    
+    
+ 
+    
+    
